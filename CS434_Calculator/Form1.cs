@@ -298,7 +298,7 @@ namespace CS434_Calculator
             {
                 txtKQ.Focus();
             }
-        }
+        }   
 
         private void btnAce_Click(object sender, EventArgs e)
         {
