@@ -1,0 +1,162 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Calculator
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        double so1, so2, ketqua;
+        int pheptoan; 
+        private void button16_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                so2 = double.Parse(txtdulieu.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Ban nhap sai !");
+                txtdulieu.Clear();
+                txtdulieu.Focus();
+            }
+            if(pheptoan == 1)
+            {
+                ketqua = so1 + so2;
+            }
+            if (pheptoan == 2)
+            {
+                ketqua = so1 - so2;
+            }
+            if (pheptoan == 3)
+            {
+                ketqua = so1 * so2;
+            }
+            if (pheptoan == 4)
+            {
+                ketqua = so1 / so2;
+            }
+
+            txtdulieu.Text = ketqua.ToString();
+        }
+
+        private void btn0_Click(object sender, EventArgs e)
+        {
+            txtdulieu.Text += "0"; 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            txtdulieu.Text = "";
+        }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            txtdulieu.Text += "1"; 
+        }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            txtdulieu.Text += "2"; 
+        }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            txtdulieu.Text += "3"; 
+        }
+
+        private void btn4_Click(object sender, EventArgs e)
+        {
+            txtdulieu.Text += "4"; 
+        }
+
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            txtdulieu.Text += "5"; 
+        }
+
+        private void btn6_Click(object sender, EventArgs e)
+        {
+            txtdulieu.Text += "6"; 
+        }
+
+        private void btn7_Click(object sender, EventArgs e)
+        {
+            txtdulieu.Text += "7"; 
+        }
+
+        private void btn8_Click(object sender, EventArgs e)
+        {
+            txtdulieu.Text += "8"; 
+        }
+
+        private void btn9_Click(object sender, EventArgs e)
+        {
+            txtdulieu.Text += "9"; 
+        }
+
+        private void btncham_Click(object sender, EventArgs e)
+        {
+            txtdulieu.Text += "."; 
+        }
+
+        private void btncong_Click(object sender, EventArgs e)
+        {
+            InputData();
+            pheptoan = 1;
+
+        }
+
+        private void btntru_Click(object sender, EventArgs e)
+        {
+            InputData();
+            pheptoan = 2;
+        }
+
+        private void btnNhan_Click(object sender, EventArgs e)
+        {
+            InputData();
+            pheptoan = 3;
+        }
+
+        private void btnchia_Click(object sender, EventArgs e)
+        {
+            InputData();
+            pheptoan = 4;
+        }
+
+        private void InputData()
+        {
+            try
+            {
+                so1 = double.Parse(txtdulieu.Text);
+                txtdulieu.Clear();
+                txtdulieu.Focus(); 
+            }
+            catch
+            {
+                MessageBox.Show("Ban nhap sai !");
+                txtdulieu.Clear();
+                txtdulieu.Focus();
+            }
+        }
+
+        private void btnC_Click(object sender, EventArgs e)
+        {
+            txtdulieu.Clear();
+            txtdulieu.Focus();
+        }
+    }
+}
+
