@@ -1,0 +1,10 @@
+D:\Data_Learning\CS 434\BT1\CS434_Calculator\CS434_Calculator\bin\Debug\CS434_Calculator.exe.config
+D:\Data_Learning\CS 434\BT1\CS434_Calculator\CS434_Calculator\bin\Debug\CS434_Calculator.exe
+D:\Data_Learning\CS 434\BT1\CS434_Calculator\CS434_Calculator\bin\Debug\CS434_Calculator.pdb
+D:\Data_Learning\CS 434\BT1\CS434_Calculator\CS434_Calculator\obj\Debug\CS434_Calculator.csprojAssemblyReference.cache
+D:\Data_Learning\CS 434\BT1\CS434_Calculator\CS434_Calculator\obj\Debug\CS434_Calculator.Calculator.resources
+D:\Data_Learning\CS 434\BT1\CS434_Calculator\CS434_Calculator\obj\Debug\CS434_Calculator.Properties.Resources.resources
+D:\Data_Learning\CS 434\BT1\CS434_Calculator\CS434_Calculator\obj\Debug\CS434_Calculator.csproj.GenerateResource.cache
+D:\Data_Learning\CS 434\BT1\CS434_Calculator\CS434_Calculator\obj\Debug\CS434_Calculator.csproj.CoreCompileInputs.cache
+D:\Data_Learning\CS 434\BT1\CS434_Calculator\CS434_Calculator\obj\Debug\CS434_Calculator.exe
+D:\Data_Learning\CS 434\BT1\CS434_Calculator\CS434_Calculator\obj\Debug\CS434_Calculator.pdb
