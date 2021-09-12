@@ -42,15 +42,23 @@ namespace CS434_Calculator
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.button1.Location = new System.Drawing.Point(89, 235);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(91, 45);
             this.button1.TabIndex = 4;
+=======
+            this.button1.Location = new System.Drawing.Point(92, 255);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(91, 45);
+            this.button1.TabIndex = 23;
+>>>>>>> f2bbf375e325b5a8591de0d758615039f0bf6152
             this.button1.Text = "Giải";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // RS
             // 
+<<<<<<< HEAD
             this.RS.Enabled = false;
             this.RS.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RS.Location = new System.Drawing.Point(186, 290);
@@ -58,68 +66,121 @@ namespace CS434_Calculator
             this.RS.Size = new System.Drawing.Size(224, 32);
             this.RS.TabIndex = 5;
             this.RS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+=======
+            this.RS.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RS.Location = new System.Drawing.Point(189, 310);
+            this.RS.Name = "RS";
+            this.RS.Size = new System.Drawing.Size(224, 32);
+            this.RS.TabIndex = 22;
+>>>>>>> f2bbf375e325b5a8591de0d758615039f0bf6152
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(84, 293);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(92, 26);
             this.label4.TabIndex = 13;
+=======
+            this.label4.Location = new System.Drawing.Point(87, 313);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(92, 26);
+            this.label4.TabIndex = 21;
+>>>>>>> f2bbf375e325b5a8591de0d758615039f0bf6152
             this.label4.Text = "Ket Qua";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(89, 192);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 26);
             this.label3.TabIndex = 12;
+=======
+            this.label3.Location = new System.Drawing.Point(92, 212);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 26);
+            this.label3.TabIndex = 20;
+>>>>>>> f2bbf375e325b5a8591de0d758615039f0bf6152
             this.label3.Text = "Nhap B";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(89, 150);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(85, 26);
             this.label2.TabIndex = 11;
+=======
+            this.label2.Location = new System.Drawing.Point(92, 170);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 26);
+            this.label2.TabIndex = 19;
+>>>>>>> f2bbf375e325b5a8591de0d758615039f0bf6152
             this.label2.Text = "Nhap A";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(163, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(248, 26);
             this.label1.TabIndex = 1;
+=======
+            this.label1.Location = new System.Drawing.Point(166, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(248, 26);
+            this.label1.TabIndex = 18;
+>>>>>>> f2bbf375e325b5a8591de0d758615039f0bf6152
             this.label1.Text = "Giai Phuong Trinh Bac 1";
             // 
             // A
             // 
             this.A.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.A.Location = new System.Drawing.Point(186, 147);
             this.A.Name = "A";
             this.A.Size = new System.Drawing.Size(225, 32);
             this.A.TabIndex = 2;
+=======
+            this.A.Location = new System.Drawing.Point(189, 167);
+            this.A.Name = "A";
+            this.A.Size = new System.Drawing.Size(225, 32);
+            this.A.TabIndex = 17;
+>>>>>>> f2bbf375e325b5a8591de0d758615039f0bf6152
             // 
             // B
             // 
             this.B.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.B.Location = new System.Drawing.Point(186, 189);
             this.B.Name = "B";
             this.B.Size = new System.Drawing.Size(225, 32);
             this.B.TabIndex = 3;
+=======
+            this.B.Location = new System.Drawing.Point(189, 209);
+            this.B.Name = "B";
+            this.B.Size = new System.Drawing.Size(225, 32);
+            this.B.TabIndex = 16;
+>>>>>>> f2bbf375e325b5a8591de0d758615039f0bf6152
             // 
             // GiaiPTB1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(539, 391);
+=======
+            this.ClientSize = new System.Drawing.Size(532, 389);
+>>>>>>> f2bbf375e325b5a8591de0d758615039f0bf6152
             this.Controls.Add(this.button1);
             this.Controls.Add(this.RS);
             this.Controls.Add(this.label4);
@@ -129,7 +190,11 @@ namespace CS434_Calculator
             this.Controls.Add(this.A);
             this.Controls.Add(this.B);
             this.Name = "GiaiPTB1";
+<<<<<<< HEAD
             this.Text = "GiaiPT";
+=======
+            this.Text = "GiaiPTB1";
+>>>>>>> f2bbf375e325b5a8591de0d758615039f0bf6152
             this.ResumeLayout(false);
             this.PerformLayout();
 
