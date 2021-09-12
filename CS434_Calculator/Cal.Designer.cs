@@ -76,7 +76,7 @@ namespace CS434_Calculator
             this.btnPhanSo.Location = new System.Drawing.Point(4, 133);
             this.btnPhanSo.Name = "btnPhanSo";
             this.btnPhanSo.Size = new System.Drawing.Size(69, 51);
-            this.btnPhanSo.TabIndex = 1;
+            this.btnPhanSo.TabIndex = 10;
             this.btnPhanSo.Text = "1⁄x";
             this.btnPhanSo.UseVisualStyleBackColor = true;
             this.btnPhanSo.Click += new System.EventHandler(this.btnPhanSo_Click);
@@ -87,7 +87,7 @@ namespace CS434_Calculator
             this.btnCanBac2.Location = new System.Drawing.Point(208, 133);
             this.btnCanBac2.Name = "btnCanBac2";
             this.btnCanBac2.Size = new System.Drawing.Size(69, 51);
-            this.btnCanBac2.TabIndex = 2;
+            this.btnCanBac2.TabIndex = 21;
             this.btnCanBac2.Text = "√x";
             this.btnCanBac2.UseVisualStyleBackColor = true;
             this.btnCanBac2.Click += new System.EventHandler(this.btnCanBac2_Click);
@@ -98,7 +98,7 @@ namespace CS434_Calculator
             this.btn4.Location = new System.Drawing.Point(4, 229);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(69, 51);
-            this.btn4.TabIndex = 5;
+            this.btn4.TabIndex = 4;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = true;
             this.btn4.Click += new System.EventHandler(this.btn0_Click);
@@ -109,7 +109,7 @@ namespace CS434_Calculator
             this.btn1.Location = new System.Drawing.Point(4, 277);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(69, 51);
-            this.btn1.TabIndex = 4;
+            this.btn1.TabIndex = 1;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = true;
             this.btn1.Click += new System.EventHandler(this.btn0_Click);
@@ -120,7 +120,7 @@ namespace CS434_Calculator
             this.btn7.Location = new System.Drawing.Point(4, 183);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(69, 51);
-            this.btn7.TabIndex = 3;
+            this.btn7.TabIndex = 7;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = true;
             this.btn7.Click += new System.EventHandler(this.btn0_Click);
@@ -131,7 +131,7 @@ namespace CS434_Calculator
             this.btn5.Location = new System.Drawing.Point(72, 229);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(69, 51);
-            this.btn5.TabIndex = 11;
+            this.btn5.TabIndex = 5;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = true;
             this.btn5.Click += new System.EventHandler(this.btn0_Click);
@@ -142,7 +142,7 @@ namespace CS434_Calculator
             this.btn2.Location = new System.Drawing.Point(72, 277);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(69, 51);
-            this.btn2.TabIndex = 10;
+            this.btn2.TabIndex = 2;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = true;
             this.btn2.Click += new System.EventHandler(this.btn0_Click);
@@ -153,7 +153,7 @@ namespace CS434_Calculator
             this.btn8.Location = new System.Drawing.Point(72, 183);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(69, 51);
-            this.btn8.TabIndex = 9;
+            this.btn8.TabIndex = 8;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = true;
             this.btn8.Click += new System.EventHandler(this.btn0_Click);
@@ -164,10 +164,9 @@ namespace CS434_Calculator
             this.btnMu2.Location = new System.Drawing.Point(140, 133);
             this.btnMu2.Name = "btnMu2";
             this.btnMu2.Size = new System.Drawing.Size(69, 51);
-            this.btnMu2.TabIndex = 8;
+            this.btnMu2.TabIndex = 12;
             this.btnMu2.Text = " χ 2 ";
             this.btnMu2.UseVisualStyleBackColor = true;
-            this.btnMu2.Click += new System.EventHandler(this.btnMu2_Click);
             // 
             // btnAmDuong
             // 
@@ -175,7 +174,7 @@ namespace CS434_Calculator
             this.btnAmDuong.Location = new System.Drawing.Point(72, 327);
             this.btnAmDuong.Name = "btnAmDuong";
             this.btnAmDuong.Size = new System.Drawing.Size(69, 51);
-            this.btnAmDuong.TabIndex = 6;
+            this.btnAmDuong.TabIndex = 14;
             this.btnAmDuong.Text = "+/-";
             this.btnAmDuong.UseVisualStyleBackColor = true;
             this.btnAmDuong.Click += new System.EventHandler(this.btnAmDuong_Click);
@@ -186,7 +185,7 @@ namespace CS434_Calculator
             this.btn6.Location = new System.Drawing.Point(140, 229);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(69, 51);
-            this.btn6.TabIndex = 17;
+            this.btn6.TabIndex = 6;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = true;
             this.btn6.Click += new System.EventHandler(this.btn0_Click);
@@ -197,7 +196,7 @@ namespace CS434_Calculator
             this.btn3.Location = new System.Drawing.Point(140, 277);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(69, 51);
-            this.btn3.TabIndex = 16;
+            this.btn3.TabIndex = 3;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = true;
             this.btn3.Click += new System.EventHandler(this.btn0_Click);
@@ -208,7 +207,7 @@ namespace CS434_Calculator
             this.btn9.Location = new System.Drawing.Point(140, 183);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(69, 51);
-            this.btn9.TabIndex = 15;
+            this.btn9.TabIndex = 9;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = true;
             this.btn9.Click += new System.EventHandler(this.btn0_Click);
@@ -219,7 +218,7 @@ namespace CS434_Calculator
             this.btnMuN.Location = new System.Drawing.Point(72, 133);
             this.btnMuN.Name = "btnMuN";
             this.btnMuN.Size = new System.Drawing.Size(69, 51);
-            this.btnMuN.TabIndex = 14;
+            this.btnMuN.TabIndex = 11;
             this.btnMuN.Text = "χ n";
             this.btnMuN.UseVisualStyleBackColor = true;
             this.btnMuN.Click += new System.EventHandler(this.btnMuN_Click);
@@ -230,7 +229,7 @@ namespace CS434_Calculator
             this.btnPhay.Location = new System.Drawing.Point(140, 327);
             this.btnPhay.Name = "btnPhay";
             this.btnPhay.Size = new System.Drawing.Size(69, 51);
-            this.btnPhay.TabIndex = 12;
+            this.btnPhay.TabIndex = 15;
             this.btnPhay.Text = ",";
             this.btnPhay.UseVisualStyleBackColor = true;
             this.btnPhay.Click += new System.EventHandler(this.btn0_Click);
@@ -241,7 +240,7 @@ namespace CS434_Calculator
             this.btnChia.Location = new System.Drawing.Point(277, 278);
             this.btnChia.Name = "btnChia";
             this.btnChia.Size = new System.Drawing.Size(69, 51);
-            this.btnChia.TabIndex = 26;
+            this.btnChia.TabIndex = 19;
             this.btnChia.Text = "/";
             this.btnChia.UseVisualStyleBackColor = true;
             this.btnChia.Click += new System.EventHandler(this.btnChia_Click);
@@ -252,7 +251,7 @@ namespace CS434_Calculator
             this.btnChiaDu.Location = new System.Drawing.Point(345, 278);
             this.btnChiaDu.Name = "btnChiaDu";
             this.btnChiaDu.Size = new System.Drawing.Size(69, 51);
-            this.btnChiaDu.TabIndex = 25;
+            this.btnChiaDu.TabIndex = 20;
             this.btnChiaDu.Text = "%";
             this.btnChiaDu.UseVisualStyleBackColor = true;
             this.btnChiaDu.Click += new System.EventHandler(this.btnChiaDu_Click);
@@ -263,7 +262,7 @@ namespace CS434_Calculator
             this.btnNhan.Location = new System.Drawing.Point(208, 277);
             this.btnNhan.Name = "btnNhan";
             this.btnNhan.Size = new System.Drawing.Size(69, 51);
-            this.btnNhan.TabIndex = 24;
+            this.btnNhan.TabIndex = 18;
             this.btnNhan.Text = "*";
             this.btnNhan.UseVisualStyleBackColor = true;
             this.btnNhan.Click += new System.EventHandler(this.btnNhan_Click);
@@ -274,7 +273,7 @@ namespace CS434_Calculator
             this.btnCong.Location = new System.Drawing.Point(277, 230);
             this.btnCong.Name = "btnCong";
             this.btnCong.Size = new System.Drawing.Size(69, 49);
-            this.btnCong.TabIndex = 23;
+            this.btnCong.TabIndex = 16;
             this.btnCong.Text = "+";
             this.btnCong.UseVisualStyleBackColor = true;
             this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
@@ -285,7 +284,7 @@ namespace CS434_Calculator
             this.btnTru.Location = new System.Drawing.Point(208, 227);
             this.btnTru.Name = "btnTru";
             this.btnTru.Size = new System.Drawing.Size(69, 51);
-            this.btnTru.TabIndex = 22;
+            this.btnTru.TabIndex = 17;
             this.btnTru.Text = "-";
             this.btnTru.UseVisualStyleBackColor = true;
             this.btnTru.Click += new System.EventHandler(this.btnTru_Click);
@@ -296,7 +295,7 @@ namespace CS434_Calculator
             this.btnBang.Location = new System.Drawing.Point(208, 327);
             this.btnBang.Name = "btnBang";
             this.btnBang.Size = new System.Drawing.Size(206, 51);
-            this.btnBang.TabIndex = 21;
+            this.btnBang.TabIndex = 22;
             this.btnBang.Text = "=";
             this.btnBang.UseVisualStyleBackColor = true;
             this.btnBang.Click += new System.EventHandler(this.btnBang_Click);
@@ -307,7 +306,7 @@ namespace CS434_Calculator
             this.btnBack.Location = new System.Drawing.Point(277, 132);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(137, 51);
-            this.btnBack.TabIndex = 27;
+            this.btnBack.TabIndex = 22;
             this.btnBack.Text = "←";
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
@@ -318,7 +317,7 @@ namespace CS434_Calculator
             this.btnAce.Location = new System.Drawing.Point(277, 180);
             this.btnAce.Name = "btnAce";
             this.btnAce.Size = new System.Drawing.Size(137, 51);
-            this.btnAce.TabIndex = 28;
+            this.btnAce.TabIndex = 23;
             this.btnAce.Text = "C";
             this.btnAce.UseVisualStyleBackColor = true;
             this.btnAce.Click += new System.EventHandler(this.btnAce_Click);
@@ -329,7 +328,7 @@ namespace CS434_Calculator
             this.btnGiaThua.Location = new System.Drawing.Point(345, 230);
             this.btnGiaThua.Name = "btnGiaThua";
             this.btnGiaThua.Size = new System.Drawing.Size(69, 49);
-            this.btnGiaThua.TabIndex = 30;
+            this.btnGiaThua.TabIndex = 21;
             this.btnGiaThua.Text = "n!";
             this.btnGiaThua.UseVisualStyleBackColor = true;
             this.btnGiaThua.Click += new System.EventHandler(this.btnGiaThua_Click);
@@ -340,7 +339,7 @@ namespace CS434_Calculator
             this.btnTriTuyetDoi.Location = new System.Drawing.Point(208, 183);
             this.btnTriTuyetDoi.Name = "btnTriTuyetDoi";
             this.btnTriTuyetDoi.Size = new System.Drawing.Size(69, 51);
-            this.btnTriTuyetDoi.TabIndex = 31;
+            this.btnTriTuyetDoi.TabIndex = 13;
             this.btnTriTuyetDoi.Text = "|x| ";
             this.btnTriTuyetDoi.UseVisualStyleBackColor = true;
             this.btnTriTuyetDoi.Click += new System.EventHandler(this.btnTriTuyetDoi_Click);
@@ -351,7 +350,7 @@ namespace CS434_Calculator
             this.txtKQ.Location = new System.Drawing.Point(2, 40);
             this.txtKQ.Name = "txtKQ";
             this.txtKQ.Size = new System.Drawing.Size(412, 55);
-            this.txtKQ.TabIndex = 18;
+            this.txtKQ.TabIndex = 25;
             this.txtKQ.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblNhap

@@ -47,7 +47,7 @@ namespace CS434_Calculator
             this.button1.Location = new System.Drawing.Point(92, 247);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(82, 48);
-            this.button1.TabIndex = 26;
+            this.button1.TabIndex = 4;
             this.button1.Text = "Giải";
             this.button1.UseVisualStyleBackColor = true;
             // 
@@ -67,15 +67,17 @@ namespace CS434_Calculator
             this.textC.Location = new System.Drawing.Point(186, 201);
             this.textC.Name = "textC";
             this.textC.Size = new System.Drawing.Size(289, 32);
-            this.textC.TabIndex = 24;
+            this.textC.TabIndex = 3;
             // 
             // textRS
             // 
+            this.textRS.Enabled = false;
             this.textRS.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textRS.Location = new System.Drawing.Point(186, 326);
             this.textRS.Name = "textRS";
             this.textRS.Size = new System.Drawing.Size(289, 32);
-            this.textRS.TabIndex = 23;
+            this.textRS.TabIndex = 5;
+            this.textRS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label4
             // 
@@ -123,7 +125,7 @@ namespace CS434_Calculator
             this.textA.Location = new System.Drawing.Point(186, 106);
             this.textA.Name = "textA";
             this.textA.Size = new System.Drawing.Size(289, 32);
-            this.textA.TabIndex = 18;
+            this.textA.TabIndex = 1;
             // 
             // textB
             // 
@@ -131,7 +133,7 @@ namespace CS434_Calculator
             this.textB.Location = new System.Drawing.Point(186, 150);
             this.textB.Name = "textB";
             this.textB.Size = new System.Drawing.Size(289, 32);
-            this.textB.TabIndex = 17;
+            this.textB.TabIndex = 2;
             // 
             // GiaiPTB2
             // 

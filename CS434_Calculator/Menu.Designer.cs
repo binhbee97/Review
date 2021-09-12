@@ -37,10 +37,10 @@ namespace CS434_Calculator
             // btnGiaiPTB1
             // 
             this.btnGiaiPTB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGiaiPTB1.Location = new System.Drawing.Point(83, 39);
+            this.btnGiaiPTB1.Location = new System.Drawing.Point(62, 42);
             this.btnGiaiPTB1.Name = "btnGiaiPTB1";
-            this.btnGiaiPTB1.Size = new System.Drawing.Size(272, 60);
-            this.btnGiaiPTB1.TabIndex = 0;
+            this.btnGiaiPTB1.Size = new System.Drawing.Size(320, 60);
+            this.btnGiaiPTB1.TabIndex = 1;
             this.btnGiaiPTB1.Text = "Giải Phương Trình Bậc 1";
             this.btnGiaiPTB1.UseVisualStyleBackColor = true;
             this.btnGiaiPTB1.Click += new System.EventHandler(this.btnGiaiPTB1_Click);
@@ -48,10 +48,10 @@ namespace CS434_Calculator
             // btnCal
             // 
             this.btnCal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCal.Location = new System.Drawing.Point(83, 221);
+            this.btnCal.Location = new System.Drawing.Point(62, 224);
             this.btnCal.Name = "btnCal";
-            this.btnCal.Size = new System.Drawing.Size(272, 60);
-            this.btnCal.TabIndex = 1;
+            this.btnCal.Size = new System.Drawing.Size(320, 60);
+            this.btnCal.TabIndex = 3;
             this.btnCal.Text = "Calculator";
             this.btnCal.UseVisualStyleBackColor = true;
             this.btnCal.Click += new System.EventHandler(this.btnCal_Click);
@@ -59,9 +59,9 @@ namespace CS434_Calculator
             // btnGiaiPTB2
             // 
             this.btnGiaiPTB2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGiaiPTB2.Location = new System.Drawing.Point(84, 132);
+            this.btnGiaiPTB2.Location = new System.Drawing.Point(63, 135);
             this.btnGiaiPTB2.Name = "btnGiaiPTB2";
-            this.btnGiaiPTB2.Size = new System.Drawing.Size(272, 60);
+            this.btnGiaiPTB2.Size = new System.Drawing.Size(320, 60);
             this.btnGiaiPTB2.TabIndex = 2;
             this.btnGiaiPTB2.Text = "Giải Phương Trình Bậc 2";
             this.btnGiaiPTB2.UseVisualStyleBackColor = true;

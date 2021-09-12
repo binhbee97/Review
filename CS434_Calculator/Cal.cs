@@ -268,21 +268,6 @@ namespace CS434_Calculator
             }
         }
 
-        private void btnMu2_Click(object sender, EventArgs e)
-        {
-            if (txtKQ.Text != "")
-            {
-                num = float.Parse(txtKQ.Text);
-                txtKQ.Clear();
-                txtKQ.Focus();
-                count = 11;
-                lblNhap.Text = num.ToString() + " lũy thừa 2";
-            }
-            else
-            {
-                txtKQ.Focus();
-            }
-        }
 
         private void btnCanBac2_Click(object sender, EventArgs e)
         {
